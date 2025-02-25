@@ -9,7 +9,7 @@ app = Flask(__name__)
 # MQTT Configuration
 MQTT_BROKER = "broker.emqx.io"
 MQTT_PORT = 1883
-TOPIC = "home/sensor/dht"
+TOPIC = "/home/sensor/dht"
 
 # Initialize MQTT client
 client = mqtt.Client()
